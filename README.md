@@ -4,8 +4,9 @@ This web app listens for repository creation events and sets protections for def
 ## Notes
 * This is a test application. It is not recommended to use it on existing organization. You may want to create empty/dummy organization.
 * After authorization the app generates webhook path. Webhook contains GitHub API access_token so you may want to treat it as password
+* All org admins will be able to see created webhook (and access_token as a result)
 * Application does not store any data
-* It is recommended to revoke access fter testing (Settings->Applications->Authorized OAuth Apps->ghBranchProtector)
+* It is recommended to revoke access after testing (Settings->Applications->Authorized OAuth Apps->ghBranchProtector)
 
 ## How to use
 * [Authorize](https://ghbranchprotector.azurewebsites.net/authorize) the app
