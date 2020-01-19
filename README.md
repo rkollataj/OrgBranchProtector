@@ -21,5 +21,8 @@ This web app listens for repository creation events and sets protections for def
 * Create new repository inside your organization
 * Application will automatically setup default branch protection and create issue outlining settings
 
+## Exemplary organization
+Take a look at [rekoHub](https://github.com/rekoHub) to see app in action.
+
 ## Deploy web app to Azure
 Follow [this](https://docs.microsoft.com/en-us/azure/app-service/containers/quickstart-python?toc=%2Fpython%2Fazure%2FTOC.json&tabs=bash) guide if you want to deploy web app to your Azure account.
